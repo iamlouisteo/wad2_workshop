@@ -132,7 +132,7 @@ export default {
     },
 
     async deletePost(id) {
-      await axios.post('http://workshop{number}.bchwy.com/4delete.php', { id }, {
+      await axios.post('http://workshop18.bchwy.com/4delete.php', { id }, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
